@@ -1,0 +1,34 @@
+{
+  "name": "licenta-aplicatie-cinema",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd server && npm install  && cd ../client && npm install && npm run build",
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "antd": "^5.8.4",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.11.2",
+    "nodemon": "^2.0.22",
+    "react": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.15.0",
+    "react-stripe-checkout": "^2.6.3",
+    "redux": "^4.2.1",
+    "stripe": "^11.18.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}
